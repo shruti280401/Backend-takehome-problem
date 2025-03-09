@@ -28,7 +28,7 @@ Ensure you have **Python 3.8+** installed.
 ## Usage
 Run the script using the following command:
 ```sh
-poetry run python get_papers.py -q "cancer research" -f results.csv
+poetry run python script.py -q "cancer research" -f results.csv
 ```
 
 ### Command-line Options
@@ -41,15 +41,15 @@ poetry run python get_papers.py -q "cancer research" -f results.csv
 ### Example Commands
 1. Display help:
    ```sh
-   poetry run python get_papers.py -h
+   poetry run python script.py -h
    ```
 2. Run with debug mode:
    ```sh
-   poetry run python get_papers.py -q "stem cells" -f output.csv -d
+   poetry run python script.py -q "stem cells" -f output.csv -d
    ```
 3. Print results to console:
    ```sh
-   poetry run python get_papers.py -q "AI in medicine"
+   poetry run python script.py -q "AI in medicine"
    ```
 
 ## Output Format
@@ -62,16 +62,13 @@ The results will be saved as a **CSV file** with the following columns:
 - **Corresponding Author Email**: Email of the corresponding author.
 
 ## Code Organization
-- **get_papers.py**: Main script to fetch and process research papers.
-- **requirements.txt**: Lists dependencies (used with Poetry).
+- **script.py**: Main script to fetch and process research papers.
 - **README.md**: Documentation (this file).
 
-## License
-This project is licensed under the **MIT License**.
 
 ## Contributing
 Feel free to submit **pull requests** or open **issues** for bug fixes and improvements.
 
 ## Contact
-For any questions, reach out to **your-email@example.com** or open an issue in the GitHub repository.
+For any questions, reach out to **shruti280401@gmail.com** or open an issue in the GitHub repository.
 
