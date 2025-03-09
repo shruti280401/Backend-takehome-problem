@@ -17,7 +17,7 @@ Ensure you have **Python 3.8+** installed.
 ### Setup
 1. Clone this repository:
    ```sh
-   [git clone https://github.com/your-username/research-paper-fetcher.git](https://github.com/shruti280401/Backend-takehome-problem.git)
+   git clone https://github.com/your-username/research-paper-fetcher.git
    cd research-paper-fetcher
    ```
 2. Install dependencies using Poetry:
